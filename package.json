@@ -1,0 +1,34 @@
+{
+  "name": "cli-app-node-hw01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olga-Gromova/CLI-app-node-HW01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olga-Gromova/CLI-app-node-HW01/issues"
+  },
+  "homepage": "https://github.com/Olga-Gromova/CLI-app-node-HW01#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nanoid": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
